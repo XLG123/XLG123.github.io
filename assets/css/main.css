@@ -2718,6 +2718,19 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+/* About Me */
+#about-me {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 500;
+}
+
+#email-contact {
+	margin-top: 1em;
+	text-align: center;
+	font-weight: bold;
+}
+
 /* Tiles */
 
 	.tiles {
@@ -3544,6 +3557,8 @@ input, select, textarea {
 
 		#about-me-section {
 			background-color: var(--about-me-bg);
+			padding: 1em 6em;
+			text-align: justify;
 		}
 
 /* Banner */
