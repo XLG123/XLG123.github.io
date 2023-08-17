@@ -8,6 +8,7 @@
 */
 :root {
 	--page-bg: #aec3b0;
+	--about-me-bg: #859a87;
 	--highlight: #eff6e0;
 	--text-hover: #5c7151;
 	--button-border-hover: #5c7151;
@@ -17,7 +18,7 @@
 	--image2-overlay: #7b8b7d;
 	--image3-overlay: #d1d2ce;
 	--description-overlay: rgb(255, 255, 255, 0.5);
-	--skills-bg: rgb(91, 119, 91);
+	--skills-bg: #859a87;
 }
 
 
@@ -3405,6 +3406,10 @@ input, select, textarea {
 					right: 0;
 				}
 
+		}
+
+		#about-me-section {
+			background-color: var(--about-me-bg);
 		}
 
 /* Banner */
