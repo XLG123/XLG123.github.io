@@ -1842,6 +1842,23 @@ input, select, textarea {
 		width: inherit;
 	}
 
+	@media screen and (width > 1440px) {
+		#profile-pic {
+			margin-left: 7vw;
+		}
+	}
+	
+	@media screen and (width <= 1440px) {
+		#profile-pic {
+			margin-left: 10vw;
+		}
+	}
+	
+	@media screen and (width <= 1090px) {
+		#profile-pic {
+			margin-left: 3vw;
+		}
+	}
 /* Form */
 
 	form {
