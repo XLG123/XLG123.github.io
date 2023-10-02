@@ -119,7 +119,7 @@
 	// Tiles.
 		var $tiles = $('.tiles > article');
 
-		$tiles.each(function() {
+		$tiles.each(function(idx) {
 
 			var $this = $(this),
 				$image = $this.find('.image'), $img = $image.find('img'),
@@ -129,7 +129,8 @@
 			// Image.
 
 				// Set image.
-					$this.css('background-image', 'url(' + $img.attr('src') + ')');
+					if (idx === 0 || idx === 3 || idx === 4)
+						$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 				// Set position.
 					if (x = $img.data('position'))
