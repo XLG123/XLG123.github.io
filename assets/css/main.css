@@ -2746,6 +2746,11 @@ input, select, textarea {
 	font-weight: bold;
 }
 
+#email-address:hover,
+#email-address:active {
+	color: #2b3d2d !important;
+}
+
 /* My Hobby */
 #hobby-section {
 	background-color: var(--my-hobby-bg);
@@ -2771,7 +2776,7 @@ input, select, textarea {
 			display: grid;
 			grid-template-columns: 50% 50%;
 		}
-
+		
 			.hobby-gif {
 				border: 3px solid #566357;
 				border-radius: 50%;
@@ -4037,5 +4042,5 @@ input, select, textarea {
 #github-garden-btn:hover,
 #github-garden-btn:active {
 	color: #2b3d2d !important;
-	box-shadow: inset 0 0 0 2px #2b3d2d;
+	box-shadow: inset 0 0 0 2px #2b3d2d !important;
 }
