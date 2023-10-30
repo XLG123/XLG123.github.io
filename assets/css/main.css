@@ -2754,7 +2754,7 @@ input, select, textarea {
 /* My Hobby */
 #hobby-section {
 	background-color: var(--my-hobby-bg);
-	padding: 1em 0 2em 0;
+	padding: 2em 0 3em 0;
 }
 
 	#hobby-section-title {
@@ -2767,27 +2767,37 @@ input, select, textarea {
 	#hobby-grid {
 		display: grid;
 		grid-template-columns: auto auto auto;
-		row-gap: 3em;
+		row-gap: 4em;
+		column-gap: 4em;
 		max-width: 65em;
 		margin: 0 auto;
 	}
 
 		.hobby-container {
 			display: grid;
-			grid-template-columns: 50% 50%;
+			grid-template-columns: 30% 70%;
+			column-gap: 2em;
 		}
 		
 			.hobby-gif {
 				border: 3px solid #566357;
 				border-radius: 50%;
-				width: 50%;
-				filter: brightness(87%);
+				width: 8vw;
+				filter: brightness(90%);
 			}
 
-			.hobby-title {
-				font-weight: 600;
-				font-size: 1.1em;
-			}
+				.hobby-title {
+					font-weight: 600;
+					font-size: 1.1em;
+				}
+
+				.hobby-description {
+					width: 98%;
+				}
+
+					.noodle-text {
+						word-spacing: 0.5em;
+					}
 
 /* Tiles */
 
