@@ -7,8 +7,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 :root {
-	--page-bg: #aec3b0;
-	--about-me-bg: #859a87;
+	--page-bg: #9caf9e;
+	--about-me-bg: #818E81;
+	--my-hobby-bg: #748274;
 	--highlight: #eff6e0;
 	--text-hover: #5c7151;
 	--text-color: #5c7151;
@@ -20,7 +21,7 @@
 	--image2-overlay: #7b8b7d;
 	--image3-overlay: #d1d2ce;
 	--description-overlay: rgb(255, 255, 255, 0.5);
-	--skills-bg: #859a87;
+	--skills-bg: #687568;
 }
 
 
@@ -2748,6 +2749,43 @@ input, select, textarea {
 	font-weight: bold;
 }
 
+/* My Hobby */
+#hobby-section {
+	background-color: var(--my-hobby-bg);
+	padding: 1em 0 2em 0;
+}
+
+	#hobby-section-title {
+		margin-bottom: 1em;
+		font-size: 2em;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	#hobby-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		row-gap: 3em;
+		max-width: 65em;
+		margin: 0 auto;
+	}
+
+		.hobby-container {
+			display: grid;
+			grid-template-columns: 50% 50%;
+		}
+
+			.hobby-gif {
+				border: 3px solid #566357;
+				border-radius: 50%;
+				width: 50%;
+				filter: brightness(87%);
+			}
+
+			.hobby-title {
+				font-weight: 600;
+			}
+
 /* Tiles */
 
 	.tiles {
@@ -3574,8 +3612,14 @@ input, select, textarea {
 
 		#about-me-section {
 			background-color: var(--about-me-bg);
-			padding: 1em 6em;
+			padding: 1em 0;
 			text-align: justify;
+		}
+
+		#about-me-description {
+			max-width: 65em;
+			width: calc(100% - 6em);
+			margin: 0 auto;
 		}
 
 /* Banner */
@@ -3913,6 +3957,11 @@ input, select, textarea {
 
 /* Footer */
 
+	#footer-msg {
+		font-weight: 500;
+		filter: brightness(2);
+	}
+
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
@@ -3986,3 +4035,7 @@ input, select, textarea {
 			}
 
 		}
+
+#my-slogan {
+	font-weight: 900;
+}
