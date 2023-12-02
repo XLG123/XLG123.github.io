@@ -3018,7 +3018,7 @@ input, select, textarea {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto;
 	row-gap: 0.3em;
-	column-gap: 2em;
+	column-gap: 1.75em;
 	font-size: 2.5em;
 	margin-bottom: 0.5em;
 }
