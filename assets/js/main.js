@@ -91,11 +91,12 @@
 
 	};
 
+	// For the top section -> author description
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 50);
 		});
 
 	// Clear transitioning state on unload/hide.
